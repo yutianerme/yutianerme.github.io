@@ -412,12 +412,12 @@ a {
       #banner-standart-1 .banner-heading {
         width: 100%; } }
     #banner-standart-1 .banner-heading h1 {
-      font-size: 72px;
+      font-size: 40px;
       line-height: 72px;
       color: #5c3575;
       display: inline-block;
       background: transparent;
-      padding: 20px 60px;
+      padding: 10px 40px;
       position: relative;
       z-index: 1; }
       #banner-standart-1 .banner-heading h1::before {
