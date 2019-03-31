@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   'use strict';
 
   $("#my-world").on("touchstart", touchStart);
@@ -13,3 +12,11 @@ $(document).ready(function() {
     document.getElementById("my-world").innerText="添儿";
   }
 });
+
+function showMyWorld(isMyWorld) {
+  if (isMyWorld == true) {
+    document.getElementById("my-world").innerText="添儿";
+  } else {
+    document.getElementById("my-world").innerText="World";
+  }
+}
