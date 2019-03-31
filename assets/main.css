@@ -417,6 +417,7 @@ a {
       color: #5c3575;
       display: inline-block;
       background: transparent;
+      opacity:0.9;
       padding: 10px 50px;
       position: relative;
       z-index: 1; }

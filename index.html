@@ -32,7 +32,7 @@
             <div class="banner-heading">
               <div class="flower left"><img src="./assets/flower.svg" alt="banner flower image"></div>
               <div class="flower right"><img src="./assets/flower.svg" alt="banner flower image"></div>
-              <h1 class="text-capitalize">Hello, 添儿</h1>
+              <h1 class="">Hello, <span id="my-world" onmouseover="showMyWorld(false)" onmouseout="showMyWorld(true)">添儿</span></h1>
             </div>
             <div class="banner-date">
               <ul>
@@ -59,5 +59,14 @@
     <script src="./assets/jquery.magnific-popup.min.js"></script>
     <script src="./assets/owl.carousel.min.js"></script>
     <script src="./assets/main.js"></script>
-  
+    
+    <script>
+      function showMyWorld(isMyWorld) {
+        if (isMyWorld == true) {
+          document.getElementById("my-world").innerText="添儿";
+        } else {
+          document.getElementById("my-world").innerText="World";
+        }
+      }
+    </script>
 </body></html>
